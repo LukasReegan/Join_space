@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    
+}
+
+.hero {
+    padding-top: 30px;
+    background-image: url("/space_project/images/hole.gif");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 90vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3DCDE;
+    height: 10vh;
+}
+
+h3 {
+    font-size: larger;
+    margin: 0;
+}
+
+h1 {
+    color: #E3DCDE;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 40px;
+    text-shadow: 0px 0px 4px black;
+}
+
+.apply-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 6px 12px;
+    font-size: larger;
+    border-radius: 0;
+    font-family: 'Orbitron', sans-serif;
+    color: #E3DCDE;
+    background-color: #120D0C;
+    font-weight: bold;
+
+}
+
+.undr {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 12px;
+}
+
+#logo {
+    width: 100px;
+}
